@@ -70,26 +70,6 @@ Minecraft Villager Trade Manager is a comprehensive Paper/Spigot plugin that giv
 # Set Fortune III to cost 40 emeralds
 /villagertrade setprice fortune 3 40
 
-
-
-
-📦 Building from Source
-Bash
-
-# Clone the repository
-git clone https://github.com/Eldrath-Dev/Minecraft-Villager-Trade-Manager.git
-
-# Navigate to the project directory
-cd Minecraft-Villager-Trade-Manager
-
-# Build with Maven
-mvn clean package
-
-# The compiled JAR will be in the target/ directory
-
-
-
-
 🔄 Compatibility
 
 Minecraft Versions: 1.20.x - 1.21.x (Automatically adapts to server capabilities)
