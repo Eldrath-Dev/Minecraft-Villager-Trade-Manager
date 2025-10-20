@@ -1,0 +1,20 @@
+name: Minecraft-Villager-Trade-Manager
+version: '${project.version}'
+main: com.alan.VillagerTradeManager.VillagerTradeManager
+api-version: '1.20'
+author: Alan
+description: Complete control over villager trading economics with custom pricing and discount prevention. Folia compatible.
+website: https://github.com/Eldrath-Dev/Minecraft-Villager-Trade-Manager
+folia-supported: true
+
+commands:
+  villagertrade:
+    description: Manage villager trade prices and discounts
+    usage: /<command> <on|off|status|setprice|restock|restocktime|restocklimit|unlimitedrestock|instantrestock>
+    permission: villagertrade.manage
+    aliases: [vtrade, vt]
+
+permissions:
+  villagertrade.manage:
+    description: Allows management of villager trades and prices
+    default: op
